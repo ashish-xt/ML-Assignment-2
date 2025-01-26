@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.metrics import confusion_matrix, classification_report
+from sklearn.metrics import confusion_matrix
 from sklearn.preprocessing import StandardScaler
 
 X = pd.read_csv('logisticX.csv')
